@@ -23,6 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-firebase.config.js
-**/server/index.js
 

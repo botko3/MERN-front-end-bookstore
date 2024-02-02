@@ -4,7 +4,7 @@ const Shop = () => {
   const [books,setBooks]=useState([]);
 
   useEffect(()=>{
-    fetch("http://localhost:5002/all-books").then(res=>res.json()).then(data=>setBooks(data));
+    fetch("http://mern-bookstore-api.onrender.com/all-books").then(res=>res.json()).then(data=>setBooks(data));
 
   },[])
   return (

@@ -10,6 +10,12 @@ import {
 } from "flowbite-react";
 
 
+
+
+
+
+
+
 const EditBooks = () => {
   const { id } = useParams();
   const {
@@ -65,7 +71,7 @@ const EditBooks = () => {
     };
 
     //update book data
-    fetch(`http://localhost:5002/book/${id}`,
+    fetch(`http://mern-bookstore-api.onrender.com/book/${id}`,
     {
       method:"PUT",
       headers:{

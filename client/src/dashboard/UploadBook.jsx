@@ -53,7 +53,7 @@ const UploadBook = () => {
       bookPDFUrl,
     };
 
-    fetch("http://localhost:5002/upload-book",{
+    fetch("http://mern-bookstore-api.onrender.com/upload-book",{
       method:"POST",
       headers:{
         "Content-type":"application/json",
